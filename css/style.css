@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: black;
+  background-color: #eeeeee;
+}
+#header {
+  background-color: #4c5c96;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+  padding: 5px;
+}
+#header h1 {
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+#header span {
+  font-size: 2rem;
+  position: relative;
+  top: 2rem;
+  padding-left: 2rem;
+}
+#heading {
+  padding: 5px;
+}
+.Display-1 {
+  text-align: center;
+  margin: 20px;
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+#addnotes {
+  font-size: 2rem;
+  background-color: #b1b9d3;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0.7rem 0.7rem 0.7rem rgba(0, 0, 0, 0.5);
+}
+#addnotes button,
+.notestable button {
+  font-size: 1.5rem;
+}
+.notestable {
+  margin: auto;
+  font-size: 1.6rem;
+  margin-top: 50px;
+  overflow-x: auto;
+}
+#myTable tr {
+  color: black;
+  background-color: #eeeeee;
+}
+.footer {
+  background-color: #4c5c96;
+  padding: 8px;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer h1 {
+  font-size: 1.5rem;
+  color: #b1b9d3;
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 1.5rem;
+}
+.form-group textarea {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 410px) {
+  #header span {
+    display: none;
+  }
+}
